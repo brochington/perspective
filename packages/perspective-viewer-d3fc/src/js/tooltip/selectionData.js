@@ -47,7 +47,7 @@ export function getSplitValues(data, settings) {
     } else if (data.mainValue?.split) {
         splitValues = data.mainValue.split("|");
     }
-    
+
     return settings.splitValues.map((split, i) => ({
         name: split.name,
         value: toValue(split.type, splitValues[i]),
