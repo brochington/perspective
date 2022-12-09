@@ -14,6 +14,7 @@ export function generateHtml(tooltipDiv, data, settings) {
     const tooltipValues = getGroupValues(data, settings)
         .concat(getSplitValues(data, settings))
         .concat(getDataValues(data, settings));
+
     addDataValues(tooltipDiv, tooltipValues);
 }
 
