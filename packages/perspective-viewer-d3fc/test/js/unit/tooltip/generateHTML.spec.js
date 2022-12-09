@@ -157,10 +157,10 @@ describe("tooltip generateHTML should", () => {
         generateHtml(tooltip, data, settings);
 
         expect(getContent()).toEqual([
-              "split-1: ts-1",
-              "split-2: -",
-              "split-3: -",
-              "main-1: 101",
+            "split-1: ts-1",
+            "split-2: -",
+            "split-3: -",
+            "main-1: 101",
         ]);
     });
 });
